@@ -1,4 +1,4 @@
-name: Java Maven CI
+name: My Personnel Website
 
 on:
   push:
@@ -12,3 +12,6 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+      - name: build image
+        uses: 
+        run docker build -t 
